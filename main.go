@@ -47,4 +47,9 @@ func main() {
 		return b.String()
 	}
 	fmt.Println(New(fn))
+
+	fmt.Println("parameter test")
+	number := Caller(100)
+
+	fmt.Println("n = ", number)
 }
