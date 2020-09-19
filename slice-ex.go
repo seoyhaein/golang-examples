@@ -2,10 +2,7 @@ package main
 
 type nums []int
 
-var (
-	n   int
-	sum int
-)
+var sum int
 
 func inputnums() int {
 	ns := nums{1, 2, 3}
