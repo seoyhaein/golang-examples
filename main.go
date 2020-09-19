@@ -52,4 +52,8 @@ func main() {
 	number := Caller(100)
 
 	fmt.Println("n = ", number)
+
+	fmt.Println("slice test")
+	n1 := inputnums()
+	fmt.Println(n1)
 }
